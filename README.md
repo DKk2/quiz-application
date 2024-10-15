@@ -16,13 +16,13 @@ Follow the instructions below to get the project running on your local machine.
 You need a web browser to run this application.
 # Installation
 1. Clone the Repository
-   git clone https://github.com/DKk2/quiz-application.git
+git clone https://github.com/DKk2/quiz-application.git
 2. Navigate into the project directory
-   cd quiz-application
+cd quiz-application
 3. Open Quizze.html in a web browser to run the quiz application.
-   You can either double-click the Quizzze.html file or open it in a browser by using:
-   open Quizze.html     # for MacOS
-   start Quizze.html    # for Windows
+You can either double-click the Quizzze.html file or open it in a browser by using:
+open Quizze.html     # for MacOS
+start Quizze.html    # for Windows
 # How to Play
 1. Start the quiz by clicking the "Start Quiz" button.
 2. Navigate through the questions using the Prev and Next buttons.
