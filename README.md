@@ -8,9 +8,10 @@ Review Section: After submission, the user sees a detailed summary of the select
 # Project Structure
 ```bash
 .
-├── Quizze.html        # Main HTML file
-├── styles.css        # CSS file for styling
-└── script.js           # JavaScript file for quiz logic
+└─code
+  ├── Quizze.html        # Main HTML file
+  ├── styles.css        # CSS file for styling
+  └── script.js           # JavaScript file for quiz logic
 ```
 # Getting Started
 Follow the instructions below to get the project running on your local machine.
