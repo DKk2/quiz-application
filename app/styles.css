@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #8B0000; /* Dark Red */
+}
+
+h2 {
+    color: #007bff;
+}
+
+/* Container for the quiz */
+#quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Question Text */
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Answer Buttons */
+#answer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Initial background */
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Control Buttons (Next, Prev, etc.) */
+.control-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.control-buttons button {
+    background-color: #d3d3d3;
+    color: #000;
+    width: 100px;
+}
+
+.control-buttons button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Progress Bar */
+#progress {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Result Section */
+#result {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Start screen */
+#start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#start-screen button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #8B0000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#start-screen button:hover {
+    background-color: #A52A2A;
+}
+
+/* Quiz Container */
+#quiz {
+    display: none;
+}
+
+/* Result feedback message styles */
+#result {
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Ensure spacing between control buttons */
+.control-buttons button {
+    margin: 5px;
+}
