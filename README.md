@@ -6,10 +6,12 @@ Question Navigation: Users can navigate through the questions using "Prev" and "
 Submit Quiz: Upon completing all the questions, users can submit the quiz to see their score and review their answers.
 Review Section: After submission, the user sees a detailed summary of the selected answers along with the correct answers.
 # Project Structure
+```bash
 .
 ├── Quizze.html        # Main HTML file
 ├── styles.css        # CSS file for styling
 └── script.js           # JavaScript file for quiz logic
+```
 # Getting Started
 Follow the instructions below to get the project running on your local machine.
 # Prerequisites
